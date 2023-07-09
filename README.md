@@ -4,4 +4,4 @@ This is the official implementation of MICCAI 2023 paper "TCL: Triplet Consisten
 
 This code is for non-commercial use.
 
-<img src="imgs/TCL_framework.png" width = "1604" height = "429" alt="" align=center />
+<img src="imgs/TCL_framework.png"  alt="" align=center />
