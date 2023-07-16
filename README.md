@@ -1,6 +1,6 @@
 # TCL
 TCL: Triplet Consistent Learning for Odometry Estimation of Monocular Endoscope
-<img src="assets/TCL_framework.png"  alt="" align=center />
+<img src="imgs/TCL_framework.png"  alt="" align=center />
 
 
 
