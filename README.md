@@ -7,14 +7,10 @@ TCL: Triplet Consistent Learning for Odometry Estimation of Monocular Endoscope
 ## Introduction 
 This is the official implementation of MICCAI 2023 paper "TCL: Triplet Consistent Learning for Odometry Estimation of Monocular Endoscope".
     
-    Triplet-Consistent-Learning framework (TCL) consisting of two
-    modules: Geometric Consistency module(GC) and Appearance Inconsis-
-    tency module(AiC). To enrich the diversity of endoscopic datasets, the
-    GC module generates synthesis triplets and enforces geometric consis-
-    tency via specific losses. To reduce the appearance inconsistency in the
-    image triplets, the AiC module introduces a triplet-masking strategy to
-    act on photometric loss. TCL can be easily embedded into various unsu-
-    pervised methods without adding extra model parameters.
+    Triplet-Consistent-Learning framework (TCL) consisting of two modules: Geometric Consistency module(GC) and Appearance Inconsis-
+    tency module(AiC). To enrich the diversity of endoscopic datasets, the GC module generates synthesis triplets and enforces geometric 
+    consistency via specific losses. To reduce the appearance inconsistency in the image triplets, the AiC module introduces a triplet- 
+    masking strategy to act on photometric loss. TCL can be easily embedded into various unsupervised methods without adding extra model parameters.
 
 This project provides the GC and AiC modules, which can be applied to SfM-based methods to improve their performance on endoscopic datasets.
 
