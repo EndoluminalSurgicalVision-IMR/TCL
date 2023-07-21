@@ -24,7 +24,7 @@ This project provides the GC and AiC modules, which can be applied to SfM-based 
     
     
 ### Pseudo-depth label preparation
-Train a state-of-the-art SfM-based method(Monodepth2,SC-SfMlearner,etc..) on the training dataset. Save the trained models and use them to generate pseudo-depth labels for the images in the training set. 
+Train a state-of-the-art SfM-based method(Monodepth2, SC-SfMlearner, etc..) on the training dataset. Save the trained models and use them to generate pseudo-depth labels for the images in the training set. 
 
 ### Dataset & SfM-based Unsupervised Method
 Prepare an endoscopic dataset and an SfM-based unsupervised method.
@@ -42,8 +42,8 @@ The TCL and AiC modules are provided in TCL.py and AiC.py, respectively.
 To achieve better results, we would like to share some training tips when embedding TCL into the baseline:
 #### Tips on TCL
 1. It is important to assess whether the current endoscopic dataset is suitable for data augmentation. If the dataset size is already sufficient, data augmentation may not necessarily lead to improved results.
-2. When incorporating TCL, we recommend starting with training without including the two consistency losses. Initially, focus on performing perturbed data augmentation to determine appropriate perturbation bound for data augmentation.
-3. Once the perturbation bound have been determined, introduce the depth consistency loss and experiment with different weights on a larger scale. This step aims to improve depth estimation while avoiding overfitting.
+2. When incorporating TCL, we recommend starting with training without including the two consistency losses. Initially, focus on performing perspective view synthesis to determine the appropriate perturbation bound for data augmentation.
+3. Once the perturbation bound has been determined, introduce the depth consistency loss and experiment with different weights on a larger scale. This step aims to improve depth estimation while avoiding overfitting.
 4. After establishing the depth consistency loss, incorporate the pose consistency loss while keeping the depth consistency loss intact. Experiment with a wide range of weights for the pose consistency loss to find the optimal balance.
 5. It is important to note that the optimal weights for the consistency losses may vary significantly depending on the specific dataset and baseline model being used. Therefore, it is crucial to carefully adjust the weights according to the characteristics of the dataset and baseline model to achieve the best performance.
 
