@@ -24,10 +24,10 @@ This project provides the GC and AiC modules, which can be applied to SfM-based 
     
     
 ### Pseudo-depth label preparation
-Train a state-of-the-art SfM-based method(Monodepth2, SC-SfMlearner, etc..) on the training dataset. Save the trained models and use them to generate pseudo-depth labels for the images in the training set. 
+Train a state-of-the-art SfM-based method(Monodepth2, SC-SfMlearner, etc..) on the training dataset. Save the trained models and use them to generate pseudo-depth labels for the training samples. 
 
 ### Dataset & SfM-based Unsupervised Method
-Prepare an endoscopic dataset and an SfM-based unsupervised method.
+Prepare an endoscopic dataset and a SfM-based unsupervised method.
 
 
 ## Usage
